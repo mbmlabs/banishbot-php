@@ -1,0 +1,34 @@
+{
+    "name": "mbmlabs/banishbot",
+    "version": "0.0.1",
+    "description": "BanishBot is a fast and simple API designed to help you, your teams and your organisation manage opt-in, opt-out and access control lists.",
+    "keywords": [
+        "banishbot",
+        "php",
+        "sdk",
+        "api"
+    ],
+    "homepage": "https://www.banishbot.com/",
+    "license": "Apache v2",
+    "authors": [
+        {
+            "name": "MbMLabs - Mathew",
+            "homepage": "https://www.banishbot.com",
+            "email": "help@banishbot.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "satooshi/php-coveralls": "~0.6.1",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "BanishBot\\" : "lib/" }
+    }
+}
